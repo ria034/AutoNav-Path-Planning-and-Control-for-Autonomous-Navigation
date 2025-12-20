@@ -69,10 +69,3 @@ f(n) = g(n) + h(n)
 
 ---
 
-## References / Further Reading
-
-- [Wikipedia: A* Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
-- [Red Blob Games: A* Tutorial](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
-- [Motion Planning for Robotics](https://planning.cs.uiuc.edu/)
-
-  
