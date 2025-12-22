@@ -12,10 +12,13 @@ def A_star(grid, start, end):
     heapq.heappush (open_list,(0,start))
     closed_list = { }
     path=[]
-    # Initialize the current nodes 
     current_row = start[i]
     current_column = start[j]
-    for i in range()
+    directions = [[-1,-1],[-1,0],[-1,1],[0,1],[1,1],[1,0],[1,-1],[0,-1]]
+    for dir in directions:
+        row_neighbour = current_row + dir[0]
+        column_neighbour  = current_column + dir[1]
+        if 
 
 
 
