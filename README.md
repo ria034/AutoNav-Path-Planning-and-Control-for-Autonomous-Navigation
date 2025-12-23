@@ -52,7 +52,7 @@ f(n) = g(n) + h(n)
 
 ---
 
-## Example Heuristics
+
 
 | Environment            | Heuristic            |
 |------------------------|-------------------|
