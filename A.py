@@ -25,6 +25,7 @@ def A_star(grid, start, end):
     open_list.append(start)
     closed_list = []
     path=[]
+<<<<<<< HEAD
     open_list. remove(start)
     closed_list.append(start)
     # Initialize the current nodes 
@@ -48,5 +49,12 @@ def A_star(grid, start, end):
         
 
 
+    current_row = start[i]
+    current_column = start[j]
+    directions = [[-1,-1],[-1,0],[-1,1],[0,1],[1,1],[1,0],[1,-1],[0,-1]]
+    for dir in directions:
+        row_neighbour = current_row + dir[0]
+        column_neighbour  = current_column + dir[1]
+        
 
 

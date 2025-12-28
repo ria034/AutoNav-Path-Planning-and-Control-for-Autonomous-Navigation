@@ -3,6 +3,9 @@ Developing a path planning algorithm( Dynamic A*,RRT) using python to avoid obst
 A* algortihm basics :
 
 # A* Path Planning Algorithm
+## One-Sentence Intuition
+
+> “A* identifies candidate states to explore, evaluates each using the sum of cost-so-far and estimated cost-to-go (f = g + h), and expands nodes in order of increasing f, ultimately reconstructing the optimal path once the goal is reached.”
 
 ## Overview
 A* is a graph-based search algorithm used to find the **optimal path** from a start state to a goal state. It works by evaluating nodes based on the sum of:
@@ -52,7 +55,7 @@ f(n) = g(n) + h(n)
 
 ---
 
-## Example Heuristics
+
 
 | Environment            | Heuristic            |
 |------------------------|-------------------|
@@ -63,9 +66,7 @@ f(n) = g(n) + h(n)
 
 ---
 
-## One-Sentence Intuition
 
-> “A* identifies candidate states to explore, evaluates each using the sum of cost-so-far and estimated cost-to-go (f = g + h), and expands nodes in order of increasing f, ultimately reconstructing the optimal path once the goal is reached.”
 
 ---
 
