@@ -15,7 +15,10 @@ A* algortihm basics :
 A_shortest_path_list.py --> A* with open list containing the nodes that we are about to explore as dictionaries so as to get the minimum values of heuristics </ul>
 <ul>A_shortest_path_heap.py --> A* with open list containing the nodes that we are about to explore stores in priority queues or heaps(data structures) </ul>
 <ul>A_star_visualization --> Consists of grid to visualize the path, the start and end nodes.</ul>
+  
 </ul></li>
+<img width="1048" height="876" alt="image" src="https://github.com/user-attachments/assets/c77d3401-a36a-4015-af1a-a7d1f32c9dae" />
+
 Yet to implement : 
 RRT --> Based sampling based motion planning to see 
 And also RL to select heuristic based on the number of directions we are going to move in 
